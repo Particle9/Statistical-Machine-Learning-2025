@@ -1,0 +1,30 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Lema{{\^i}}tre et~al.(2017)Lema{{\^i}}tre, Nogueira, and Aridas]{JMLR:v18:16-365}
+G.~Lema{{\^i}}tre, F.~Nogueira, and C.~K. Aridas.
+\newblock Imbalanced-learn: A python toolbox to tackle the curse of imbalanced datasets in machine learning.
+\newblock \emph{Journal of Machine Learning Research}, 18\penalty0 (17):\penalty0 1--5, 2017.
+\newblock URL \url{http://jmlr.org/papers/v18/16-365.html}.
+
+\bibitem[Lindholm et~al.(2022)Lindholm, Wahlstr\"om, Lindsten, and Sch\"on]{smlbook}
+A.~Lindholm, N.~Wahlstr\"om, F.~Lindsten, and T.~B. Sch\"on.
+\newblock \emph{Machine Learning - A First Course for Engineers and Scientists}.
+\newblock Cambridge University Press, 2022.
+\newblock URL \url{https://smlbook.org}.
+
+\bibitem[Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel, Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos, Cournapeau, Brucher, Perrot, and Duchesnay]{scikit-learn}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel, M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos, D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay.
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock \emph{Journal of Machine Learning Research}, 12:\penalty0 2825--2830, 2011.
+
+\bibitem[Radečić(2020)]{tds-cyclical-data}
+D.~Radečić.
+\newblock How to handle cyclical data in machine learning, 2020.
+\newblock URL \url{https://towardsdatascience.com/how-to-handle-cyclical-data-in-machine-learning-3e0336f7f97c}.
+
+\end{thebibliography}

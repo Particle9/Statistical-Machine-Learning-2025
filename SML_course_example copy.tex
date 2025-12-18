@@ -1,0 +1,189 @@
+\documentclass{article}
+
+
+\PassOptionsToPackage{square,comma,numbers,sort&compress}{natbib}
+
+% Keep this line uncomment in the first submission
+\usepackage{neurips_2024} 
+
+%Uncomment this line for the second submission
+%\usepackage[final]{neurips_2024}
+
+
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\usepackage{listings}
+\lstdefinestyle{mystyle}{
+backgroundcolor=\color{backcolour},
+commentstyle=\color{codegreen},
+keywordstyle=\color{magenta},
+numberstyle=\tiny\color{codegray},
+stringstyle=\color{codepurple},
+basicstyle=\footnotesize\ttfamily,
+breakatwhitespace=false,
+breaklines=true, captionpos=b,
+keepspaces=true, numbers=left,
+numbersep=5pt, showspaces=false,
+showstringspaces=false,
+showtabs=false, tabsize=2,
+}
+\lstset{style=mystyle}
+
+\bibliographystyle{abbrvnat}
+
+\title{Do we need more bikes?\\
+Project in Statistical Machine Learning}
+
+\author{
+  David S.~Hippocampus\\
+  \AND
+  Anna J.~Petterson\\
+  \AND
+  Frederick B. ~Bromberg\\
+}
+\makeatletter
+\renewcommand{\@noticestring}{}
+\makeatother
+
+\begin{document}
+
+
+\maketitle
+\begin{abstract}
+This is an abstract to summarize the problem and your findings. Number of group member: \textbf{K}
+\end{abstract}
+
+
+\section{Problem Description}
+\label{headings}
+Ca
+
+In this Project, we aim to analyze whether the increase in the number of bikes is necessary or not based on the various temporal and meteorogical data provided in the dataset. 
+
+
+
+\section{Data Analysis}
+\label{headings}
+All headings should use lowercase letters, except for the first word and proper nouns. In the initial submission, include \verb+\usepackage{neurips_2024}+; for the final submission, use \verb+\usepackage[final]{neurips_2024}+ and comment out \verb+\usepackage{neurips_2024}+.
+
+
+
+\section{Model Development}
+\label{headings}
+All headings should use lowercase letters, except for the first word and proper nouns. In the initial submission, include \verb+\usepackage{neurips_2024}+; for the final submission, use \verb+\usepackage[final]{neurips_2024}+ and comment out \verb+\usepackage{neurips_2024}+.
+
+
+\section{Conclusion}
+\label{headings}
+All headings should use lowercase letters, except for the first word and proper nouns. In the initial submission, include \verb+\usepackage{neurips_2024}+; for the final submission, use \verb+\usepackage[final]{neurips_2024}+ and comment out \verb+\usepackage{neurips_2024}+.
+
+\subsection{Example of Figures}
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.45\textwidth]{example_figure.pdf}
+  \caption{Sample figure caption.}
+  \label{fig:11}
+\end{figure}
+
+\begin{figure}[!h]
+     \centering
+     \begin{subfigure}{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{example_figure.pdf}
+         \caption{Caption about (a)}
+         \label{fig:21}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{example_figure.pdf}
+         \caption{Caption about (b)}
+         \label{fig:22}
+     \end{subfigure}
+        \caption{Sample two figures}
+        \label{fig:two graphs}
+\end{figure}
+
+As shown in Figure~\ref{fig:11} and Figure~\ref{fig:21}...
+
+\subsection{Example of tables}
+
+\begin{table}[!ht]
+  \caption{Features in the Dataset}
+  \label{features-table}
+  \centering
+\begin{tabular}{ p{2.5cm} p{3cm} p{6.5cm} }
+    \textbf{Feature} & \textbf{Type} & \textbf{Description} \\
+    \hline
+    hour\_of\_day & Ordinal & Hour of the day (0-23) \\
+    day\_of\_week & Ordinal & Day of the week (0-6) \\
+    month & Ordinal & Month of the year (1-12) \\
+    holiday & Binary / Categorical & Whether the day is a holiday or not (0 or 1) \\
+    weekday & Binary / Categorical & Whether the day is a weekday or not (0 or 1) \\
+    summertime & Binary / Categorical & Whether the day is in the summer time period or not (0 or 1) \\
+    temp & Numerical & Temperature in Celsius \\
+    dew & Numerical & Dew point temperature in Celsius \\
+    humidity & Numerical & Relative Humidity in percentage \\
+    precip & Numerical & Precipitation in mm \\
+    snow & Numerical & Amount of snow in the last hour in cm \\
+    snow\_depth & Numerical & Accumulated snow depth in cm \\
+    windspeed & Numerical & Wind speed in km/h \\
+    cloudcover & Numerical & Percentage of cloud cover \\
+    visibility & Numerical & Distance in km at which objects or landmarks can be clearly seen and identified \\
+    increase\_stock & Binary / Categorical (Target) & Whether an increase in bike stock is needed (0 or 1) \\
+    
+\end{tabular}
+\end{table}
+According to Table~\ref{tab:1}, we found that...
+
+\subsection{Example of maths}
+Note that display math in bare TeX commands will not create correct line numbers for submission. Please use LaTeX (or AMSTeX) commands for unnumbered display math. (You really shouldn't be using \$\$ anyway; see \url{https://tex.stackexchange.com/questions/503/why-is-preferable-to} and \url{https://tex.stackexchange.com/questions/40492/what-are-the-differences-between-align-equation-and-displaymath} for more information.)
+\begin{equation}\label{eq:1}
+    \theta^* = (\textbf{X}^\top\textbf{X})^{-1}\textbf{X}^\top\textbf{Y}
+\end{equation}
+
+The equation \ref{eq:1} ...
+
+\subsection{Example of citations}
+Any citation style is acceptable as long as you maintain consistency throughout. References should be included in the file "ref.bib." You may use author-year or numeric citation styles. To cite works in the author-year format, use the command \verb+\citet+:
+
+\begin{center} \citet{hasselmo1995dynamics} \end{center}
+
+For numeric citations, use the command \verb+\cite+:
+
+\begin{center} \cite{bower2012book} \end{center}
+
+The \verb+natbib+ package will be automatically loaded for you.
+
+For additional information, you can refer to the \verb+natbib+ documentation at:
+
+\begin{center} \url{http://mirrors.ctan.org/macros/latex/contrib/natbib/natnotes.pdf} \end{center}
+
+\medskip
+\bibliography{ref}
+\appendix
+\section{Appendix}
+\newpage
+\lstinputlisting[language=python]{code.py}
+
+
+
+\end{document}

@@ -1,0 +1,889 @@
+2025-11-29 12:24:57,444:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+100 fits failed out of a total of 400.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver lbfgs supports only 'l2' or None penalties, got l1 penalty.
+
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver newton-cg supports only 'l2' or None penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 12:24:57,466:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.8137202         nan 0.79977114        nan 0.8371385  0.83778732
+ 0.83400422 0.84003258 0.84352847        nan 0.83958349        nan
+ 0.84288952 0.84309387 0.83914587 0.84326909 0.84496551        nan
+ 0.83716842        nan 0.84402551 0.84289189 0.83734375 0.84662491
+ 0.84722691        nan 0.83767111        nan 0.84855447 0.84257108
+ 0.83734375 0.84759236 0.84630532        nan 0.83767111        nan
+ 0.84722697 0.84325914 0.83735677 0.84753566]
+  warnings.warn(
+
+2025-11-29 12:28:29,210:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+100 fits failed out of a total of 400.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver lbfgs supports only 'l2' or None penalties, got l1 penalty.
+
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver newton-cg supports only 'l2' or None penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 12:28:29,217:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.8137202         nan 0.79977114        nan 0.8371385  0.83778732
+ 0.83359114 0.84003258 0.84352847        nan 0.83927375        nan
+ 0.84288952 0.84309387 0.8388342  0.84326909 0.84496551        nan
+ 0.83746665        nan 0.84402551 0.84289189 0.83734375 0.84662491
+ 0.84722691        nan 0.83704183        nan 0.84855447 0.84257108
+ 0.83767111 0.84759236 0.84661179        nan 0.83775956        nan
+ 0.84722697 0.84325914 0.83767111 0.84753566]
+  warnings.warn(
+
+2025-11-29 12:29:38,653:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+20 fits failed out of a total of 60.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 637, in fit
+    self._solve_eigen(
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 467, in _solve_eigen
+    evals, evecs = linalg.eigh(Sb, Sw)
+  File "/opt/homebrew/lib/python3.9/site-packages/scipy/linalg/_decomp.py", line 593, in eigh
+    raise LinAlgError('The leading minor of order {} of B is not '
+numpy.linalg.LinAlgError: The leading minor of order 14 of B is not positive definite. The factorization of B could not be completed and no eigenvalues or eigenvectors were computed.
+
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 621, in fit
+    raise NotImplementedError("shrinkage not supported with 'svd' solver.")
+NotImplementedError: shrinkage not supported with 'svd' solver.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 12:29:38,656:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.84333812 0.84333812        nan        nan 0.84381755 0.84381755]
+  warnings.warn(
+
+2025-11-29 12:43:56,889:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+100 fits failed out of a total of 400.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver lbfgs supports only 'l2' or None penalties, got l1 penalty.
+
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver newton-cg supports only 'l2' or None penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 12:43:56,898:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.8137202         nan 0.79934052        nan 0.8371385  0.83778732
+ 0.83316518 0.84003258 0.84352847        nan 0.83958349        nan
+ 0.84288952 0.84309387 0.83914649 0.84326909 0.84496551        nan
+ 0.83686407        nan 0.84402551 0.84289189 0.83702941 0.84662491
+ 0.84733117        nan 0.83744462        nan 0.84855447 0.84257108
+ 0.83734375 0.84759236 0.84630532        nan 0.83767111        nan
+ 0.84722697 0.84325914 0.83767111 0.84753566]
+  warnings.warn(
+
+2025-11-29 12:44:20,064:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+20 fits failed out of a total of 60.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 637, in fit
+    self._solve_eigen(
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 467, in _solve_eigen
+    evals, evecs = linalg.eigh(Sb, Sw)
+  File "/opt/homebrew/lib/python3.9/site-packages/scipy/linalg/_decomp.py", line 593, in eigh
+    raise LinAlgError('The leading minor of order {} of B is not '
+numpy.linalg.LinAlgError: The leading minor of order 14 of B is not positive definite. The factorization of B could not be completed and no eigenvalues or eigenvectors were computed.
+
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 621, in fit
+    raise NotImplementedError("shrinkage not supported with 'svd' solver.")
+NotImplementedError: shrinkage not supported with 'svd' solver.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 12:44:20,065:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.84333812 0.84333812        nan        nan 0.84381755 0.84381755]
+  warnings.warn(
+
+2025-11-29 12:59:28,519:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+10 fits failed out of a total of 30.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 637, in fit
+    self._solve_eigen(
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 467, in _solve_eigen
+    evals, evecs = linalg.eigh(Sb, Sw)
+  File "/opt/homebrew/lib/python3.9/site-packages/scipy/linalg/_decomp.py", line 593, in eigh
+    raise LinAlgError('The leading minor of order {} of B is not '
+numpy.linalg.LinAlgError: The leading minor of order 14 of B is not positive definite. The factorization of B could not be completed and no eigenvalues or eigenvectors were computed.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 12:59:28,526:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.84333812 0.84333812        nan]
+  warnings.warn(
+
+2025-11-29 14:06:26,497:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+100 fits failed out of a total of 400.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver lbfgs supports only 'l2' or None penalties, got l1 penalty.
+
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver newton-cg supports only 'l2' or None penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 14:06:26,505:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.8137202         nan 0.79934052        nan 0.8371385  0.83778732
+ 0.83359114 0.84003258 0.84352847        nan 0.83958349        nan
+ 0.84288952 0.84309387 0.83914587 0.84326909 0.84496551        nan
+ 0.83777324        nan 0.84402551 0.84289189 0.83734375 0.84662491
+ 0.84722691        nan 0.83767111        nan 0.84855447 0.84257108
+ 0.83735677 0.84759236 0.84630532        nan 0.83767111        nan
+ 0.84722697 0.84325914 0.83735677 0.84753566]
+  warnings.warn(
+
+2025-11-29 14:07:02,316:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+100 fits failed out of a total of 400.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver lbfgs supports only 'l2' or None penalties, got l1 penalty.
+
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver newton-cg supports only 'l2' or None penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 14:07:02,325:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.39838208        nan 0.39838208        nan 0.46934179 0.47440041
+ 0.45304285 0.47484499 0.56137564        nan 0.46219672        nan
+ 0.58369571 0.58718266 0.48006044 0.58808279 0.58642971        nan
+ 0.47606384        nan 0.59442331 0.5874638  0.48028786 0.59233219
+ 0.59404444        nan 0.47926745        nan 0.59339044 0.60793057
+ 0.47926745 0.60224042 0.5941255         nan 0.47926745        nan
+ 0.59955537 0.59995381 0.47926745 0.59955537]
+  warnings.warn(
+
+2025-11-29 14:07:02,390:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:07:05,577:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:07:05,646:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:07:05,702:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:07:05,774:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:07:05,825:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:07:05,871:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:07:05,924:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:07:05,975:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:07:06,040:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:07:06,081:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:07:15,792:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+10 fits failed out of a total of 30.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 637, in fit
+    self._solve_eigen(
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 467, in _solve_eigen
+    evals, evecs = linalg.eigh(Sb, Sw)
+  File "/opt/homebrew/lib/python3.9/site-packages/scipy/linalg/_decomp.py", line 593, in eigh
+    raise LinAlgError('The leading minor of order {} of B is not '
+numpy.linalg.LinAlgError: The leading minor of order 14 of B is not positive definite. The factorization of B could not be completed and no eigenvalues or eigenvectors were computed.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 14:07:15,793:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.57346133 0.57346133        nan]
+  warnings.warn(
+
+2025-11-29 14:08:05,064:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+100 fits failed out of a total of 400.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver lbfgs supports only 'l2' or None penalties, got l1 penalty.
+
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver newton-cg supports only 'l2' or None penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 14:08:05,067:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.39838208        nan 0.39838208        nan 0.46934179 0.47440041
+ 0.45304285 0.47484499 0.56137564        nan 0.46219672        nan
+ 0.58369571 0.58718266 0.48006044 0.58808279 0.58642971        nan
+ 0.47274751        nan 0.59442331 0.5874638  0.47926745 0.59233219
+ 0.59660336        nan 0.47926745        nan 0.59339044 0.60793057
+ 0.48028786 0.60224042 0.59676502        nan 0.47926745        nan
+ 0.59955537 0.59995381 0.47926745 0.59955537]
+  warnings.warn(
+
+2025-11-29 14:08:05,084:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:05,472:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:05,528:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:05,591:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:05,652:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:05,708:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:05,772:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:05,816:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:05,856:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:05,905:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:05,946:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:06,035:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+10 fits failed out of a total of 30.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 637, in fit
+    self._solve_eigen(
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 467, in _solve_eigen
+    evals, evecs = linalg.eigh(Sb, Sw)
+  File "/opt/homebrew/lib/python3.9/site-packages/scipy/linalg/_decomp.py", line 593, in eigh
+    raise LinAlgError('The leading minor of order {} of B is not '
+numpy.linalg.LinAlgError: The leading minor of order 14 of B is not positive definite. The factorization of B could not be completed and no eigenvalues or eigenvectors were computed.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 14:08:06,035:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.57346133 0.57346133        nan]
+  warnings.warn(
+
+2025-11-29 14:08:39,904:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+100 fits failed out of a total of 400.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver lbfgs supports only 'l2' or None penalties, got l1 penalty.
+
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver newton-cg supports only 'l2' or None penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 14:08:39,906:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.39838208        nan 0.39838208        nan 0.46934179 0.47440041
+ 0.45304285 0.47484499 0.56137564        nan 0.46219672        nan
+ 0.58369571 0.58718266 0.48006044 0.58808279 0.58642971        nan
+ 0.47376792        nan 0.59442331 0.5874638  0.48028786 0.59233219
+ 0.59404444        nan 0.48028786        nan 0.59339044 0.60793057
+ 0.47926745 0.60224042 0.5941255         nan 0.48028786        nan
+ 0.59955537 0.59995381 0.47926745 0.59955537]
+  warnings.warn(
+
+2025-11-29 14:08:39,933:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:44,388:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:44,423:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:44,447:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:44,476:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:44,500:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:44,522:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:44,571:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:44,615:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:44,670:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:44,703:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:08:48,545:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+10 fits failed out of a total of 30.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 637, in fit
+    self._solve_eigen(
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/discriminant_analysis.py", line 467, in _solve_eigen
+    evals, evecs = linalg.eigh(Sb, Sw)
+  File "/opt/homebrew/lib/python3.9/site-packages/scipy/linalg/_decomp.py", line 593, in eigh
+    raise LinAlgError('The leading minor of order {} of B is not '
+numpy.linalg.LinAlgError: The leading minor of order 14 of B is not positive definite. The factorization of B could not be completed and no eigenvalues or eigenvectors were computed.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 14:08:48,546:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.57346133 0.57346133        nan]
+  warnings.warn(
+
+2025-11-29 14:25:09,144:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 14:40:14,743:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+100 fits failed out of a total of 400.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver lbfgs supports only 'l2' or None penalties, got l1 penalty.
+
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver newton-cg supports only 'l2' or None penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 14:40:14,751:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.39838208        nan 0.39838208        nan 0.46934179 0.47440041
+ 0.45304285 0.47484499 0.56137564        nan 0.46219672        nan
+ 0.58369571 0.58718266 0.48006044 0.58808279 0.58642971        nan
+ 0.47606384        nan 0.59442331 0.5874638  0.47926745 0.59233219
+ 0.59404444        nan 0.47926745        nan 0.59339044 0.60793057
+ 0.48028786 0.60224042 0.59676502        nan 0.47926745        nan
+ 0.59955537 0.59995381 0.47926745 0.59955537]
+  warnings.warn(
+
+2025-11-29 14:40:14,781:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2025-11-29 16:36:13,421:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:547: FitFailedWarning: 
+100 fits failed out of a total of 400.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver lbfgs supports only 'l2' or None penalties, got l1 penalty.
+
+--------------------------------------------------------------------------------
+50 fits failed with the following error:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+  File "/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver newton-cg supports only 'l2' or None penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2025-11-29 16:36:13,429:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.39838208        nan 0.39838208        nan 0.46934179 0.47440041
+ 0.45304285 0.47484499 0.56137564        nan 0.46219672        nan
+ 0.58369571 0.58718266 0.48006044 0.58808279 0.58642971        nan
+ 0.47274751        nan 0.59442331 0.5874638  0.48028786 0.59233219
+ 0.59660336        nan 0.48028786        nan 0.59339044 0.60793057
+ 0.48028786 0.60224042 0.59955537        nan 0.47926745        nan
+ 0.59955537 0.59995381 0.47926745 0.59955537]
+  warnings.warn(
+
+2025-11-29 16:36:13,511:WARNING:/opt/homebrew/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
